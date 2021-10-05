@@ -3,7 +3,7 @@
     <div class="col-12">
         <div class="navbar-header">
             <a href="javascript:void(0);" class="bars"></a>
-            <a class="navbar-brand" href="../view/index.php"><img class="imglogo-brand" src="~/assets/images/TCC-logo.png"
+            <a class="navbar-brand" href="/"><img class="imglogo-brand" src="~/assets/images/TCC-logo.png"
                     alt="TCC GROUP"></a>
         </div>
         <ul class="nav navbar-nav navbar-left">

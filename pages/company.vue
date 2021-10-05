@@ -15,7 +15,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <ul class="breadcrumb float-md-right">
-                        <li class="breadcrumb-item"><a href="../view/index.php"><i class="zmdi zmdi-home"></i> Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="/"><i class="zmdi zmdi-home"></i> Dashboard</a></li>
                         <li class="breadcrumb-item active">ทะเบียนบริษัท</li>
                     </ul>
                 </div>
@@ -114,7 +114,7 @@
                                     </div>
                                     <div class="btn-control">
                                         <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
-                                        <a class="btn btn-raised btn-default __gold waves-effect" href="../view/company_AddEdit.php">เพิ่มใหม่</a>
+                                        <a class="btn btn-raised btn-default __gold waves-effect" href="/company-addedit">เพิ่มใหม่</a>
                                     </div>
                                 </form>
 
@@ -169,7 +169,7 @@
                                             <td>เลขทะเบียนนิติบุคคล (13 หลัก)</td>
                                             <td>ชื่อกลุ่มธุรกิจหลัก</td>
                                             <td>สถานะบริษัท</td>
-                                            <td><a href="../view/company_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                            <td><a href="/company-addedit"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr>
                                             <td>123</td>
@@ -179,7 +179,7 @@
                                             <td>เลขทะเบียนนิติบุคคล (13 หลัก)</td>
                                             <td>ชื่อกลุ่มธุรกิจหลัก</td>
                                             <td>สถานะบริษัท</td>
-                                            <td><a href="../view/company_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                            <td><a href="/company-addedit"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr>
                                             <td>123</td>
@@ -189,7 +189,7 @@
                                             <td>เลขทะเบียนนิติบุคคล (13 หลัก)</td>
                                             <td>ชื่อกลุ่มธุรกิจหลัก</td>
                                             <td>สถานะบริษัท</td>
-                                            <td><a href="../view/company_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                            <td><a href="/company-addedit"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr>
                                             <td>123</td>
@@ -199,7 +199,7 @@
                                             <td>เลขทะเบียนนิติบุคคล (13 หลัก)</td>
                                             <td>ชื่อกลุ่มธุรกิจหลัก</td>
                                             <td>สถานะบริษัท</td>
-                                            <td><a href="../view/company_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                            <td><a href="/company-addedit"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr>
                                             <td>123</td>
@@ -209,7 +209,7 @@
                                             <td>เลขทะเบียนนิติบุคคล (13 หลัก)</td>
                                             <td>ชื่อกลุ่มธุรกิจหลัก</td>
                                             <td>สถานะบริษัท</td>
-                                            <td><a href="../view/company_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                            <td><a href="/company-addedit"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
 
                                     </tbody>
@@ -225,7 +225,7 @@
                 <div class="col-lg-12">
                     <div class="card">
                         <div class="body">
-                            <p class="m-b-0">© 2021 <a href="#index" target="black">TCC GROUP</a> </p>
+                            <p class="m-b-0">© 2021 <a href="/" target="black">TCC GROUP</a> </p>
                         </div>
                     </div>
                 </div>
@@ -314,5 +314,5 @@ export default {
 
 <style>
 @import '@/assets/plugins/bootstrap-select/css/bootstrap-select.css';
-;</style>
+</style>
 
