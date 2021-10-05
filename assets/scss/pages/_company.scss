@@ -1,0 +1,164 @@
+#company_status {
+    margin: 50px 0px;
+}
+
+.sec-maininfo {
+    .boxname_inner {
+        display: block;
+        background-color: #E7E8EC;
+        color: black;
+        text-align: center;
+
+        h2 {
+            font-size: 20px;
+        }
+
+        h3 {
+            padding: 10px 0px;
+            font-size: 16px;
+        }
+
+        .alert-company {
+            color: #ffff;
+            background-color: $red-vitality !important;
+            padding: 10px;
+            border-radius: 0;
+        }
+    }
+}
+
+.body {
+    .__Status {
+        float: right;
+        display: block;
+        position: relative;
+    }
+}
+
+.btn_control {
+
+    background-color: $red-vitalitydark;
+    padding: 5px;
+
+    .__save,
+    .__new {
+        float: left;
+    }
+
+    .__close,
+    .__exit {
+        float: right;
+    }
+
+    .material-icons {
+        color: white;
+    }
+}
+
+#company_detail {
+    .nav-tabs .nav-link.active {
+        color: #fff !important;
+        font-weight: 700;
+        background: #9B1821 !important;
+        border-bottom: 2px solid #B89761 !important;
+
+    }
+
+    .btn_function {
+
+        color: #222;
+        background-color: #fff;
+        border-bottom: 1px solid #D5D5D5;
+        margin-bottom: 30px;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+
+
+        .__box {
+            width: 85px;
+            height: 85px;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #D5D5D5;
+            border-radius: 10px;
+            margin-right: 15px;
+
+            .function-name {
+                font-size: 16px !important;
+                font-weight: 600 !important;
+
+            }
+
+            ._update,
+            ._remove,
+            ._person_add {
+                margin-top: 10px;
+            }
+
+            ._add {
+                margin-top: 15px;
+
+                .material-icons {
+                    display: block;
+                }
+            }
+
+            ._person_add {
+                .btn {
+                    padding: 0;
+                }
+
+                .btn.focus,
+                .btn:focus {
+                    box-shadow: none;
+                }
+            }
+        }
+
+    }
+
+    [type="checkbox"].filled-in:checked.chk-col-red+label:after {
+        border: 2px solid $red-vitality;
+        background-color: $red-vitality;
+    }
+}
+
+.w-100px {
+    width: 100px;
+    float: left;
+    padding-right: 5px;
+}
+
+.modal-dialog.modal-lg.box__director {
+    max-width: 1345px;
+
+    .modal-footer {
+        padding-right: 6.75rem;
+    }
+}
+
+.form-horizontal.__companymerger {
+    padding: 40px;
+    border: 1px solid #B1B1B1;
+    border-radius: 10px;
+}
+
+.form-horizontal._AddHistory {
+    padding: 40px;
+}
+
+.h-60 {
+    display: block;
+    position: relative;
+    height: 60px;
+}
+
+.detail__box {
+    display: block;
+    position: relative;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 30px 0px;
+}

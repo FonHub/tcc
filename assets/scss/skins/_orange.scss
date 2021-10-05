@@ -1,0 +1,147 @@
+﻿$white: #ffffff;
+$red-vitality: #9B1821 !default;
+$red-vitalitydark:#521216 !default;
+$orange-300: #B89761 !default;
+$orange-5000: #ffc100 !default;
+
+
+.theme-orange .profile-page .profile-sub-header .box-list ul li a:hover,
+.theme-orange .menu>ul>li>ul.normal-sub>li a:hover,
+.theme-orange .menu>ul>li>ul>li>ul>li a:hover {
+    background-color: $red-vitality;
+}
+
+.theme-orange {
+
+    .navbar-header {
+        background: $red-vitality;
+    }
+
+    .navbar-brand {
+        color: $white;
+        font-weight: 700;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: $white;
+        }
+    }
+
+    .navbar {
+        background-color: $white;
+        max-height: 54px;
+    }
+
+    .nav {
+        >li {
+            >a {
+                color: $red-vitality;
+
+                &:hover,
+                &:focus {
+                    background-color: transparent;
+                }
+            }
+        }
+
+        .open {
+            >a {
+                background-color: transparent;
+
+                &:hover,
+                &:focus {
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+
+    .bars {
+        color: $red-vitality;
+    }
+
+    .sidebar {
+        .user-info {
+            background-color: $red-vitalitydark;
+
+
+        }
+
+        .menu {
+            .list {
+                li.active {
+                    background-color: transparent;
+
+                    >:first-child {
+
+                        i,
+                        span {
+                            color: $red-vitality;
+                        }
+                    }
+                }
+
+                .toggled,
+                .ml-menu {
+                    background-color: #f6f6f6;
+                    border-left: 3px solid;
+                    border-bottom: none;
+                    border-top: none;
+                    border-color: $red-vitality;
+                }
+            }
+        }
+    }
+
+    .inbox-widget {
+        .inbox-inner {
+            &:hover {
+                .inbox-img {
+                    img {
+                        border: 2px solid $red-vitality;
+                        transition: all 150ms linear;
+                    }
+                }
+            }
+        }
+    }
+
+    .nav-tabs {
+        .nav-link.active {
+            border-bottom: 1px solid $red-vitality !important;
+            color: $red-vitality !important;
+            font-weight: 700;
+        }
+    }
+
+    .blog-page {
+        .single-blog-post {
+            .img-holder {
+                .date-box {
+                    background-color: $red-vitality;
+                }
+            }
+        }
+    }
+
+    .notify {
+        .heartbit {
+            border-color: $red-vitality;
+        }
+
+        .point {
+            background-color: $red-vitality;
+        }
+    }
+
+    .authentication {
+        background: url(../images/orange_loginbg.jpg) no-repeat center center fixed;
+
+        .card {
+            .header {
+                background: $red-vitality;
+            }
+        }
+    }
+}
