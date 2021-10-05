@@ -16,7 +16,7 @@
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <ul class="breadcrumb float-md-right">
                         <li class="breadcrumb-item"><a href="/"><i class="zmdi zmdi-home"></i> Dashboard</a></li>
-                        <li class="breadcrumb-item"><a href="../view/company.php"></a> ทะเบียนบริษัท</li>
+                        <li class="breadcrumb-item"><a href="/company"></a> ทะเบียนบริษัท</li>
                         <li class="breadcrumb-item active">ทะเบียนบริษัท</li>
                     </ul>
                 </div>
@@ -154,24 +154,34 @@
                                 <!-- Tab panes -->
                                 <div class="tab-content">
                                     <!-- Tab panes 1-->
-                                    <Tap_headadd />
-                                    <!-- <?php include('../view/companyaddedit_tap-1.php'); ?>
-                                     Tab panes 2-->
-                                    <!-- <?php include('../view/companyaddedit_tap-2.php'); ?>
-                                     Tab panes 3-->
-                                    <!-- <?php include('../view/companyaddedit_tap-3.php'); ?> -->
-                                    <!-- Tab panes 4-->
-                                    <!-- <?php include('../view/companyaddedit_tap-4.php'); ?> -->
-                                    <!-- Tab panes 5-->
-                                    <!-- <?php include('../view/companyaddedit_tap-5.php'); ?> -->
-                                    <!-- Tab panes 6-->
-                                    <!-- <?php include('../view/companyaddedit_tap-6.php'); ?> -->
-                                    <!-- Tab panes 7-->
-                                    <!-- <?php include('../view/companyaddedit_tap-7.php'); ?>
-                                     Tab panes 8-->
-                                    <!-- <?php include('../view/companyaddedit_tap-8.php'); ?> -->
-                                    <!-- Tab panes 9-->
-                                    <!-- <?php include('../view/companyaddedit_tap-9.php'); ?> --> -->
+                                    <div  role="tabpanel" class="tab-pane in active" id="HeadAdd">
+                                        <TapHeadAdd />
+                                    </div>
+                                    
+                                    <div role="tabpanel" class="tab-pane" id="BranchAdd">                                        
+                                      <BranchAddress />
+                                    </div>
+                                    <div  role="tabpanel" class="tab-pane" id="Director">
+                                         <Director />
+                                    </div>
+                                   <div role="tabpanel" class="tab-pane" id="Merger">
+                                        <Merger />
+                                   </div>
+                                   <div role="tabpanel" class="tab-pane " id="Liquidate">
+                                       <Liquidate />
+                                   </div>
+                                   <div role="tabpanel" class="tab-pane" id="NameHistory">
+                                       <NameHistory />
+                                   </div>
+                                   <div role="tabpanel" class="tab-pane" id="AddHistory">
+                                       <AddressHistory />
+                                   </div>
+                                   <div role="tabpanel" class="tab-pane" id="Account">
+                                       <Account />
+                                   </div>
+                                   <div role="tabpanel" class="tab-pane" id="DocLocation">
+                                       <DocLocation />
+                                   </div>                                    
                                 </div>
                             </div>
                         </div>
@@ -198,13 +208,30 @@
 import Topbar from '@/components/Topbar'
 import Leftsidebar from '@/components/Leftsidebar'
 import Rightsidebar from '@/components/Rightsidebar'
-import Tap_headadd from '@/components/company/Tap_headadd'
+import TapHeadAdd from '@/components/company/TapHeadAdd'
+import BranchAddress from '@/components/company/BranchAddress'
+import Director from '@/components/company/Director'
+import Merger from '@/components/company/Merger'
+import Liquidate from '@/components/company/Liquidate'
+import NameHistory from '@/components/company/NameHistory'
+import AddressHistory from '@/components/company/AddressHistory'
+import Account from '@/components/company/Account'
+import DocLocation from '@/components/company/DocLocation'
+
 export default {
   components: {
     Topbar,
     Leftsidebar,
     Rightsidebar,
-    Tap_headadd,
+    TapHeadAdd,
+    BranchAddress,
+    Director,
+    Merger,
+    Liquidate,
+    NameHistory,
+    AddressHistory,
+    Account,
+    DocLocation
   },
   head:{
       script: [

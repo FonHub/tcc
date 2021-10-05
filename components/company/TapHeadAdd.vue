@@ -1,5 +1,5 @@
 <template>
-     <div role="tabpanel" class="tab-pane in active" id="HeadAdd">
+     <div>
      <!-- bar control-->
      <div class="row clearfix">
          <div class="col-sm-12 col-md-12 col-lg-12 btn_control">
