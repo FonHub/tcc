@@ -312,6 +312,7 @@ export default {
 }
 </script> 
 
-<style >
+<style>
 @import '@/assets/plugins/bootstrap-select/css/bootstrap-select.css';
 ;</style>
+
