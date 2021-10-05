@@ -310,7 +310,8 @@ export default {
   mounted() {},
   methods: {},
 }
-</script>
+</script> 
+
 <style >
 @import '@/assets/plugins/bootstrap-select/css/bootstrap-select.css';
 ;</style>
