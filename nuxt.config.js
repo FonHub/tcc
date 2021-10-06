@@ -63,5 +63,15 @@ export default {
         $jqueçry: "jqueçry"
       })
     ],
+  }, build: {
+    loaders: {
+      sass: {
+        implementation: require('sass'),
+      },
+      scss: {
+        implementation: require('sass'),
+      },
+    },
   }
+
 }

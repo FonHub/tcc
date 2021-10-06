@@ -22,10 +22,10 @@
             <li class="active open"><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-home"></i><span>ทะเบียนบริษัท</span></a>
                 <ul class="ml-menu">
                     <li class="active"><a href="/company">ข้อมูลบริษัท</a></li>
-                    <li><a href="/companyAddressHistory">ประวัติการเปลี่ยนแปลงชื่อบริษัท</a></li>
-                    <li><a href="../view/company_AddressHistory.php">ประวัติการเปลี่ยนแปลงที่อยู่บริษัท</a></li>
-                    <li><a href="../view/company_Merger.php">การควบบริษัท</a></li>
-                    <li><a href="../view/company_Liquidate.php">การชำระบัญชี</a></li>
+                    <li><a href="/companyNameHistory">ประวัติการเปลี่ยนแปลงชื่อบริษัท</a></li>
+                    <li><a href="/companyAddressHistory">ประวัติการเปลี่ยนแปลงที่อยู่บริษัท</a></li>
+                    <li><a href="/companyMerger">การควบบริษัท</a></li>
+                    <li><a href="/companyLiquidate">การชำระบัญชี</a></li>
                 </ul>
             </li>
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-trending-up"></i><span>ทะเบียนหุ้น</span> </a>

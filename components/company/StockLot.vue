@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="__box">
-            <div class="_copy">
+            <div class="_copy" >
                 <i class="material-icons">content_copy</i>
                 <span class="function-name">Copy</span>
             </div>
