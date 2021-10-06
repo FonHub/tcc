@@ -1,5 +1,6 @@
 <template>
 <div>
+    
     <Topbar />
     <Leftsidebar />
     <Rightsidebar />
@@ -8,14 +9,14 @@
         <div class="block-header">
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-sm-12">
-                    <h2>ทะเบียนบริษัท
+                    <h2>ทะเบียนหุ้น
                         <small class="text-muted">Welcome to TCC Application</small>
                     </h2>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <ul class="breadcrumb float-md-right">
                         <li class="breadcrumb-item"><a href="/"><i class="zmdi zmdi-home"></i> Dashboard</a></li>
-                        <li class="breadcrumb-item active">ทะเบียนบริษัท</li>
+                        <li class="breadcrumb-item active">ทะเบียนหุ้น</li>
                     </ul>
                 </div>
             </div>
@@ -34,7 +35,7 @@
                                     <div class="col-sm-12">
                                         <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">search</i></span>
                                             <div class="form-line">
-                                                <input type="text" class="form-control" placeholder="พิมพ์รหัสบริษัท/ผู้ถือหุ้น,ชื่อบริษัท/ผู้ถือหุ้นภาษาไทย,ชื่อบริษัท/ผู้ถือหุ้นภาษาอังกฤษ,ชื่อค้นหาบริษัท/ผู้ถือหุ้น,เลขทะเบียนนิติบุคคล">
+                                                <input type="text" class="form-control" placeholder="พิมพ์รหัสทะเบียนหุ้น,/ผู้ถือหุ้น,ชื่อบริษัท/อังกฤษ/ชื่อบริษัท/ผู้ถือหุ้น,/ผู้ถือหุ้น,เลขทะเบียนนิติบุคคล">
                                             </div>
                                         </div>
                                     </div>
@@ -113,7 +114,7 @@
                                     </div>
                                     <div class="btn-control">
                                         <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
-                                        <a class="btn btn-raised btn-default __gold waves-effect" href="/company-addedit">เพิ่มใหม่</a>
+                                        <a class="btn btn-raised btn-default __gold waves-effect" href="/stock-addedit">เพิ่มใหม่</a>
                                     </div>
                                 </form>
 
@@ -131,11 +132,11 @@
                         <div class="card">
                             <div class="header">
                                 <div class="header-status">
-                                    <h3>รายการทะบียนบริษัทเพิ่มล่าสุดทั้งหมด</h3>
+                                    <h3>รายการทะเบียนหุ้นเพิ่มล่าสุดทั้งหมด</h3>
                                     <span>302,240</span>
                                 </div>
                                 <ul class="header-dropdown m-r--5">
-                                    <button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">add</i></button>
+                                    <button type="button" class="btn btn-raised btn-default waves-effect" @click="onClickLink"> <i class="material-icons">add</i></button>
                                     <li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more-vert"></i> </a>
                                         <ul class="dropdown-menu slideUp ">
                                             <li><a href="javascript:void(0);">Action</a></li>
@@ -168,7 +169,7 @@
                                             <td>เลขทะเบียนนิติบุคคล (13 หลัก)</td>
                                             <td>ชื่อกลุ่มธุรกิจหลัก</td>
                                             <td>สถานะบริษัท</td>
-                                            <td><a href="/company-addedit"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                            <td><a href="/stock-addedit"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr>
                                             <td>123</td>
@@ -178,7 +179,7 @@
                                             <td>เลขทะเบียนนิติบุคคล (13 หลัก)</td>
                                             <td>ชื่อกลุ่มธุรกิจหลัก</td>
                                             <td>สถานะบริษัท</td>
-                                            <td><a href="/company-addedit"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                            <td><a href="/stock-addedit"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr>
                                             <td>123</td>
@@ -188,7 +189,7 @@
                                             <td>เลขทะเบียนนิติบุคคล (13 หลัก)</td>
                                             <td>ชื่อกลุ่มธุรกิจหลัก</td>
                                             <td>สถานะบริษัท</td>
-                                            <td><a href="/company-addedit"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                            <td><a href="/stock-addedit"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr>
                                             <td>123</td>
@@ -198,7 +199,7 @@
                                             <td>เลขทะเบียนนิติบุคคล (13 หลัก)</td>
                                             <td>ชื่อกลุ่มธุรกิจหลัก</td>
                                             <td>สถานะบริษัท</td>
-                                            <td><a href="/company-addedit"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                            <td><a href="/stock-addedit"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr>
                                             <td>123</td>
@@ -208,7 +209,7 @@
                                             <td>เลขทะเบียนนิติบุคคล (13 หลัก)</td>
                                             <td>ชื่อกลุ่มธุรกิจหลัก</td>
                                             <td>สถานะบริษัท</td>
-                                            <td><a href="/company-addedit"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                            <td><a href="/stock-addedit"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
 
                                     </tbody>
@@ -307,7 +308,11 @@ export default {
     return {}
   },
   mounted() {},
-  methods: {},
+  methods: {
+      onClickLink(){
+          this.$router.push('/stock-addedit')
+      },
+  },
 }
 </script> 
 

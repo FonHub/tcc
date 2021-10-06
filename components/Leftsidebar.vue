@@ -30,7 +30,7 @@
             </li>
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-trending-up"></i><span>ทะเบียนหุ้น</span> </a>
                 <ul class="ml-menu">
-                    <li><a href="#symbol">ข้อมูลหุ้น</a></li>
+                    <li><a href="/stock">ข้อมูลหุ้น</a></li>
                     <li><a href="#lot">บริษัทเจ้าของหุ้น</a></li>
                     <li><a href="#stockno">รายละเอียดใบหุ้น</a></li>
                     <li><a href="#meeting">รายละเอียดการประชุม</a></li>
