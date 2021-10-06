@@ -38,14 +38,14 @@
                                         <div class="col-lg-2 col-md-2"> <b>Symbol</b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input type="text" class="form-control ip" placeholder="TCC">
+                                                    <input type="text" class="form-control" placeholder="TCC">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6"> <b>TaxNo</b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input type="text" class="form-control ip" placeholder="เลขทะเบียนนิติบุคคล (13 หลัก)">
+                                                    <input type="text" class="form-control" placeholder="เลขทะเบียนนิติบุคคล (13 หลัก)">
                                                 </div>
                                             </div>
                                         </div>
@@ -54,20 +54,20 @@
                                         <div class="col-lg-6 col-md-6"> <b>ชื่อบริษัทภาษาไทย</b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input type="text" class="form-control ip" placeholder="ชื่อนิติบุคคล">
+                                                    <input type="text" class="form-control" placeholder="ชื่อนิติบุคคล">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6"> <b>ชื่อบริษัทภาษาอังกฤษ</b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input type="text" class="form-control ip" placeholder="Company Inc">
+                                                    <input type="text" class="form-control" placeholder="Company Inc">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row clearfix">
-                                        <div class="col-lg-5 col-md-5"> <b>Sector</b>
+                                        <div class="col-lg-6 col-md-6"> <b>Sector</b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <select class="form-control show-tick">
@@ -83,7 +83,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-5 col-md-5"> <b>Sub Group</b>
+                                        <div class="col-lg-2 col-md-2"> <b>Type</b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <select class="form-control show-tick">
@@ -98,32 +98,140 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="col-lg-3 col-md-3"> <b>Type Name</b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>หุ้นสามัญ</option>
+                                                            <option>หุ้น 2 </option>
+                                                        </optgroup>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="row clearfix">
-                                        <div class="col-lg-2 col-md-2"> <b>Vat/Non Vat</b>
+                                        <div class="col-lg-2 col-md-2"> <b>Number of Share</b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input type="text" class="form-control ip" placeholder="00%">
+                                                    <input type="text" class="form-control" placeholder="00.00">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-5 col-md-5"> <b>Register Date <small>(วันที่ขึ้นทะเบียนนิติบุคคล)</small></b>
+                                        <div class="col-lg-2 col-md-2"> <b>Par Value</b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input type="text" class="form-control date" placeholder="วัน-เดือน-ปี พ.ศ.">
+                                                    <input type="text" class="form-control" placeholder="0000.000">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-5 col-md-5"> <b>End Date </b>
+                                        <div class="col-lg-2 col-md-2"> <b>NBV</b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input type="text" class="form-control date" placeholder="วัน-เดือน-ปี พ.ศ.">
+                                                    <input type="text" class="form-control" placeholder="0000.000">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3"> <b>Market</b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>ไทย</option>
+                                                            <option>ต่างประเทศ </option>
+                                                        </optgroup>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3"> <b>Provice</b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control date" placeholder="">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="btn-control">
-                                        <a href="#symbol"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> Update to Securities</button>
+                                    <div class="row clearfix">
+                                        <div class="col-lg-3 col-md-3"> <b>Group</b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>กลุ่ม 1</option>
+                                                            <option>กลุ่ม 2 </option>
+                                                        </optgroup>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3"> <b>SubGroup</b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>กลุ่ม 1</option>
+                                                            <option>กลุ่ม 2 </option>
+                                                        </optgroup>
+                                                    </select>
+                                                </div>
+                                            </div>                                            
+                                        </div>
+                                        <div class="col-lg-3 col-md-3"> <b>Currency</b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>TH</option>
+                                                            <option>$</option>
+                                                        </optgroup>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3"> <b>Country</b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>ไทย</option>
+                                                            <option>ต่างประเทศ </option>
+                                                        </optgroup>
+                                                    </select>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row clearfix">
+                                        <div class="col-lg-3 col-md-3"> <b>Register Date</b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control" placeholder="วัน-เดือน-ปี พ.ศ. ">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3"> <b>  Register Amount<span>(สำหรับ บอจ.)</span></b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control" placeholder="1,000,000.00">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3"> <b>Start Date</b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control" placeholder="วัน-เดือน-ปี พ.ศ. ">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3"> <b>End Date</b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control" placeholder="วัน-เดือน-ปี พ.ศ. ">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </form>
 
@@ -133,7 +241,7 @@
                 </div>
             </section>
 
-            <!-- company detail-->
+            <!-- stock detail-->
             <div id="company_detail">
                 <div class="row clearfix">
                     <div class="col-sm-12 col-md-12 col-lg-12">
@@ -158,7 +266,7 @@
                                         <TapHeadAdd />
                                     </div>
                                     
-                                    <div role="tabpanel" class="tab-pane" id="BranchAdd">                                        
+                                    <div role="tabpanel" class="tab-pane" id="BranchAdd"> 
                                       <BranchAddress /> 
                                     </div>
                                     <div  role="tabpanel" class="tab-pane" id="Director">
