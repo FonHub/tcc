@@ -159,7 +159,7 @@
                                     </div>
                                     
                                     <div role="tabpanel" class="tab-pane" id="BranchAdd">                                        
-                                      <BranchAddress />
+                                      <BranchAddress /> 
                                     </div>
                                     <div  role="tabpanel" class="tab-pane" id="Director">
                                          <Director />
