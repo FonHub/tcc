@@ -29,6 +29,18 @@
                 <span class="function-name">Remove</span>
             </div>
         </div>
+        <div class="__box">
+            <div class="_copy">
+                <i class="material-icons">content_copy</i>
+                <span class="function-name">Copy</span>
+            </div>
+        </div>
+        <div class="__box">
+            <div class="_remove">
+                <i class="material-icons">perm_contact_calendar</i>
+                <span class="function-name">Select Date</span>
+            </div>
+        </div>
     </div>
     <!-- table -->
     <div class="body table-responsive stock_list">
