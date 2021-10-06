@@ -35,10 +35,10 @@
                 <table class="table table-hover">
                   <thead>
                     <tr>
-                      <th style="width: 60px"></th>
-                      <th>Company</th>
-                      <th>Print Running</th>
-                      <th>จองหุ้น/รับโอน</th>
+                      <th  style="width:260px;">Company</th>
+                      <th>ทะเบียน</th>
+                      <th>Print <br> Running</th>
+                      <th>จองหุ้น <br> /รับโอน</th>
                       <th>Pay Type</th>
                       <th>Start No.</th>
                       <th>End No.</th>
@@ -53,7 +53,6 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>0000</td>
                       <td>บริษัท พัฒนา ธุรกิจ 1 </td>
                       <td>1</td>
                       <td>1</td>
@@ -62,18 +61,20 @@
                       <td>1</td>
                       <td>2500</td>
                       <td>00.00</td>
-                      <td>99900</td>
+                      <td>9</td>
                       <td>06 ก.พ. 2518</td>
                       <td>24 ธ.ค. 2514</td>
                       <td>1</td>
-                      <td>19 เม.ย. 2519</td>
+                      <td>19 เม.ย. 2512</td>
                       <td>
-                        <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
+                        <div class="input-group">
+                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
+                            <label for="md_checkbox_21"></label>
+                        </div>
                       </td>
                     </tr>
                     <tr>
-                      <td>0000</td>
-                      <td>บริษัท พัฒนา ธุรกิจ 2 </td>
+                      <td>บริษัท กลุ่มทีซีซี ธุรกิจ  </td>
                       <td>1</td>
                       <td>1</td>
                       <td>จองหุ้น</td>
@@ -81,13 +82,16 @@
                       <td>2501</td>
                       <td>9998</td>
                       <td>00.00</td>
-                      <td>99900</td>
+                      <td>9</td>
                       <td>06 ก.พ. 2518</td>
                       <td>24 ธ.ค. 2514</td>
                       <td>1</td>
-                      <td>19 เม.ย. 2519</td>
+                      <td>19 เม.ย. 2512</td>
                       <td>
-                        <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
+                        <div class="input-group">
+                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
+                            <label for="md_checkbox_21"></label>
+                        </div>
                       </td>
                     </tr>
                   </tbody>
