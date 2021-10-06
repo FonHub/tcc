@@ -271,10 +271,10 @@
                                       <StockLot /> 
                                     </div>
                                     <div  role="tabpanel" class="tab-pane" id="StockNo">
-                                         <Director />
+                                         <StockNo />
                                     </div>
                                    <div role="tabpanel" class="tab-pane" id="Print">
-                                        <Merger />
+                                        <StockPrint />
                                    </div>
                                    <div role="tabpanel" class="tab-pane " id="Meeting">
                                        <Liquidate />
@@ -319,6 +319,8 @@ import Leftsidebar from '@/components/Leftsidebar'
 import Rightsidebar from '@/components/Rightsidebar'
 import TapHeadAdd from '@/components/company/TapHeadAdd'
 import StockLot from '@/components/company/StockLot'
+import StockNo from '@/components/company/StockNo'
+import StockPrint from '@/components/company/StockPrint'
 import Director from '@/components/company/Director'
 import Merger from '@/components/company/Merger'
 import Liquidate from '@/components/company/Liquidate'
@@ -334,6 +336,8 @@ export default {
     Rightsidebar,
     TapHeadAdd,
     StockLot,
+    StockNo,
+    StockPrint,
     Director,
     Merger,
     Liquidate,

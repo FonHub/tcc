@@ -30,15 +30,23 @@
             </div>
         </div>
         <div class="__box">
-            <div class="_copy" >
+            <div class="_copy" style="margin-top: 10px; " >
                 <i class="material-icons">content_copy</i>
                 <span class="function-name">Copy</span>
             </div>
         </div>
-        <div class="__box">
-            <div class="_remove">
+        <div class="__box" >
+            <div class="_calendar" >
+              <button
+              type="button"
+              class="btn btn-default"
+              data-toggle="modal"
+              data-target="#largeModalStockLot"
+              style="margin-top: 10px; padding: 0;"
+            >
                 <i class="material-icons">perm_contact_calendar</i>
-                <span class="function-name">Select Date</span>
+                <span class="function-name">Meeting</span>
+            </button>
             </div>
         </div>
     </div>
@@ -47,7 +55,7 @@
                 <table class="table table-hover">
                   <thead>
                     <tr>
-                      <th  style="width:260px;">Company</th>
+                      <th  style="width:120px;">Company</th>
                       <th>ทะเบียน</th>
                       <th>Print <br> Running</th>
                       <th>จองหุ้น <br> /รับโอน</th>
@@ -108,7 +116,67 @@
                     </tr>
                   </tbody>
                 </table>
+    </div>
+
+    <!-- Modal Large Size -->
+    <div class="modal fade" id="largeModalStockLot" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg box__director" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="largeModalLabel">Create Meeting Date</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal box__director">
+              <div class="row clearfix">
+                <div class="col-lg-3 col-md-3"> <b>วันที่ประชุม</b>
+                  <div class="input-group">
+                    <div class="form-line">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="วัน-เดือน-ปี พ.ศ. "
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6"> <b>ประเภทการประชุม</b>
+                  <div class="input-group">
+                    <div class="form-line">
+                        <select class="form-control show-tick">
+                            <optgroup label="เลือกประเภทการประชุม">
+                                <option>จองหุ้น</option>
+                                <option>รับโอน</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <a href="#save"></a
+            ><button
+              type="button"
+              class="btn btn-raised btn-default __redvitality waves-effect"
+            >
+              บันทึก
+            </button>
+            <a href="#cancel"></a
+            ><button type="button" class="btn btn-raised bg-grey waves-effect">
+              ยกเลิก
+            </button>
+            <button
+              type="button"
+              class="btn btn-link waves-effect"
+              data-dismiss="modal"
+            >
+              ปิด
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     
 </div>
 </template>
