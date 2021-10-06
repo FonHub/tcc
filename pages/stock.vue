@@ -310,7 +310,7 @@ export default {
   mounted() {},
   methods: {
       onClickLink(){
-          this.$router.push('/stock-addedit')
+          this.$router.push('/')
       },
   },
 }

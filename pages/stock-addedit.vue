@@ -249,15 +249,16 @@
                             <div class="body">
                                 <!-- Nav tabs -->
                                 <ul class="nav nav-tabs">
-                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#HeadAdd">Head Address</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#BranchAdd">Branch Address</a></li>
+                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#HeadAdd">Basic</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Lot">Lot</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#StockNo">StockNo</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Print">Print</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Meeting">Meeting</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Director">Director</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Merger">Merger</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Liquidate">Liquidate</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#NameHistory">Name History</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#AddHistory">Address History</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Account">Account</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#DocLocation">Doc.location</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Investment">Investment</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Dividend">Dividend</a></li>
                                 </ul>
                                 <!-- Tab panes -->
                                 <div class="tab-content">
@@ -266,28 +267,28 @@
                                         <TapHeadAdd />
                                     </div>
                                     
-                                    <div role="tabpanel" class="tab-pane" id="BranchAdd"> 
-                                      <BranchAddress /> 
+                                    <div role="tabpanel" class="tab-pane" id="Lot"> 
+                                      <StockLot /> 
                                     </div>
-                                    <div  role="tabpanel" class="tab-pane" id="Director">
+                                    <div  role="tabpanel" class="tab-pane" id="StockNo">
                                          <Director />
                                     </div>
-                                   <div role="tabpanel" class="tab-pane" id="Merger">
+                                   <div role="tabpanel" class="tab-pane" id="Print">
                                         <Merger />
                                    </div>
-                                   <div role="tabpanel" class="tab-pane " id="Liquidate">
+                                   <div role="tabpanel" class="tab-pane " id="Meeting">
                                        <Liquidate />
                                    </div>
-                                   <div role="tabpanel" class="tab-pane" id="NameHistory">
+                                   <div role="tabpanel" class="tab-pane" id="Director">
                                        <NameHistory />
                                    </div>
-                                   <div role="tabpanel" class="tab-pane" id="AddHistory">
+                                   <div role="tabpanel" class="tab-pane" id="NameHistory">
                                        <AddressHistory />
                                    </div>
-                                   <div role="tabpanel" class="tab-pane" id="Account">
+                                   <div role="tabpanel" class="tab-pane" id="AddHistory">
                                        <Account />
                                    </div>
-                                   <div role="tabpanel" class="tab-pane" id="DocLocation">
+                                   <div role="tabpanel" class="tab-pane" id="Investment">
                                        <DocLocation />
                                    </div>                                    
                                 </div>
@@ -317,7 +318,7 @@ import Topbar from '@/components/Topbar'
 import Leftsidebar from '@/components/Leftsidebar'
 import Rightsidebar from '@/components/Rightsidebar'
 import TapHeadAdd from '@/components/company/TapHeadAdd'
-import BranchAddress from '@/components/company/BranchAddress'
+import StockLot from '@/components/company/StockLot'
 import Director from '@/components/company/Director'
 import Merger from '@/components/company/Merger'
 import Liquidate from '@/components/company/Liquidate'
@@ -332,7 +333,7 @@ export default {
     Leftsidebar,
     Rightsidebar,
     TapHeadAdd,
-    BranchAddress,
+    StockLot,
     Director,
     Merger,
     Liquidate,

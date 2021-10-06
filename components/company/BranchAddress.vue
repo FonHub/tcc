@@ -132,15 +132,6 @@
                 </div>
             </div>
         </div>
-        <div class="row clearfix">
-            <div class="col-lg-6 col-md-6"> <b>แนบเอกสาร</b>
-                <div class="input-group">
-                    <div class="form-line">
-                        <input type="text" class="form-control" placeholder="">
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="btn-control">
             <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
             <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>

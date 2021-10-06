@@ -45,7 +45,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-5">
+            <div class="col-lg-2 col-md-2">
+                <div><b>เลขผู้ทำบัญชี </b>
+                    <div class="input-group">
+                        <div class="form-line">
+                            <input type="text" class="form-control" placeholder="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
                 <div><b>ชื่อ </b>
                     <div class="input-group">
                         <div class="form-line">
@@ -54,7 +63,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-5">
+            <div class="col-lg-4 col-md-4">
                 <div><b>นามสกุล </b>
                     <div class="input-group">
                         <div class="form-line">
