@@ -50,12 +50,12 @@
             </li>
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-view-module"></i><span>Master</span> </a>
                 <ul class="ml-menu">
-                    <li><a href="javascript:void(0);"> <span>ข้อมูล Group และ Sub Group</span> </a></li>
-                    <li><a href="javascript:void(0);" class="menu-toggle"> <span>ข้อมูล Sector</span> </a>
+                    <li><a href="/Master"> <span>ข้อมูล Group และ Sub Group</span> </a></li>
+                    <li><a href="/Master" class="menu-toggle"> <span>ข้อมูล Sector</span> </a>
                         <ul class="ml-menu">
-                            <li><a href="javascript:void(0);"> <span>Office</span> </a></li>
-                            <li><a href="javascript:void(0);"> <span>บริษัทหลักทรัพย์</span> </a></li>
-                            <li><a href="javascript:void(0);"> <span>สถาบันการเงิน</span> </a></li>
+                            <li><a href="/Master"> <span>Office</span> </a></li>
+                            <li><a href="/Master"> <span>บริษัทหลักทรัพย์</span> </a></li>
+                            <li><a href="/Master"> <span>สถาบันการเงิน</span> </a></li>
                         </ul>
                     </li>
                 </ul>
