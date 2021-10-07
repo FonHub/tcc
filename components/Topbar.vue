@@ -24,6 +24,8 @@
             </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
+             <li><a href="javascript:void(0);" class="mega-menu xs-hide" data-close="true"><i
+                        class="zmdi zmdi-translate"></i></a></li>
             <li><a href="javascript:void(0);" class="mega-menu xs-hide" data-close="true"><i
                         class="zmdi zmdi-power"></i></a></li>
             <li><a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i
