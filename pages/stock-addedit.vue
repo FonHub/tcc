@@ -277,19 +277,22 @@
                                         <StockPrint />
                                    </div>
                                    <div role="tabpanel" class="tab-pane " id="Meeting">
-                                       <Liquidate />
+                                       <StockMeet />
                                    </div>
                                    <div role="tabpanel" class="tab-pane" id="Director">
-                                       <NameHistory />
+                                       <Director />
                                    </div>
                                    <div role="tabpanel" class="tab-pane" id="NameHistory">
-                                       <AddressHistory />
+                                       <NameHistory />
                                    </div>
                                    <div role="tabpanel" class="tab-pane" id="AddHistory">
-                                       <Account />
+                                       <AddressHistory />
                                    </div>
                                    <div role="tabpanel" class="tab-pane" id="Investment">
-                                       <DocLocation />
+                                       <StockInvestment />
+                                   </div>
+                                   <div role="tabpanel" class="tab-pane" id="Dividend">
+                                       <StockDividend />
                                    </div>                                    
                                 </div>
                             </div>
@@ -320,14 +323,13 @@ import Rightsidebar from '@/components/Rightsidebar'
 import TapHeadAdd from '@/components/company/TapHeadAdd'
 import StockLot from '@/components/company/StockLot'
 import StockNo from '@/components/company/StockNo'
+import StockMeet from '@/components/company/StockMeet'
 import StockPrint from '@/components/company/StockPrint'
 import Director from '@/components/company/Director'
-import Merger from '@/components/company/Merger'
-import Liquidate from '@/components/company/Liquidate'
 import NameHistory from '@/components/company/NameHistory'
 import AddressHistory from '@/components/company/AddressHistory'
-import Account from '@/components/company/Account'
-import DocLocation from '@/components/company/DocLocation'
+import StockInvestment from '@/components/company/StockInvestment'
+import StockDividend from '@/components/company/StockDividend'
 
 export default {
   components: {
@@ -339,12 +341,11 @@ export default {
     StockNo,
     StockPrint,
     Director,
-    Merger,
-    Liquidate,
+    StockMeet,
     NameHistory,
     AddressHistory,
-    Account,
-    DocLocation
+    StockInvestment,
+    StockDividend
   },
   head:{
       script: [
