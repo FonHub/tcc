@@ -43,9 +43,9 @@
             </li>
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-grid"></i><span>หุ้นตลาด</span> </a>
                 <ul class="ml-menu">
-                    <li><a href="#mastersymbol">บริษัทเจ้าของหุ้น(Company)</a></li>
-                    <li><a href="#companysymbol">บริษัทผู้ถือหุ้น (Company)</a></li>
-                    <li><a href="#mastersymbol">ข้อมูลหุ้น</a></li>
+                    <li><a href="/stockMarket">ข้อมูลหุ้นตลาด</a></li>
+                    <li><a href="/stockMarket">บริษัทเจ้าของหุ้น(Company)</a></li>
+                    <li><a href="/stockMarket">บริษัทผู้ถือหุ้น (Company)</a></li>
                 </ul>
             </li>
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-view-module"></i><span>Master</span> </a>
