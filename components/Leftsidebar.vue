@@ -77,7 +77,7 @@
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-folder"></i><span>รายงานหุ้น</span> </a>
                 <ul class="ml-menu">
                     <li><a href="javascript:void(0);">รายงานใบหุ้น</a></li>
-                    <li><a href="javascript:void(0);">สมุดทะเบียนหุ้น</a></li>
+                    <li><a href="/reportStock">สมุดทะเบียนหุ้น</a></li>
                     <li><a href="javascript:void(0);">รายงานการเก็บใบหุ้น</a></li>
                     <li><a href="javascript:void(0);">รายงานการจำนำหุ้น</a></li>
                     <li><a href="javascript:void(0);">รายงานสรุปรวม</a></li>
@@ -90,6 +90,8 @@
                 </ul>
             </li>
         </ul>
+        <!-- test -->
+        
     </div>
     <!-- #Menu -->
 </aside>
