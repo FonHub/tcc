@@ -19,7 +19,7 @@
     <div class="menu">
         <ul class="list">
             <li class=""><a href="/Person"><i class="zmdi zmdi-account"></i><span>ทะเบียนบุคคล</span></a></li>
-            <li class="active open"><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-home"></i><span>ทะเบียนบริษัท</span></a>
+            <li class="active open"><a href="/company" class="menu-toggle"><i class="zmdi zmdi-home"></i><span>ทะเบียนบริษัท</span></a>
                 <ul class="ml-menu">
                     <li class="active"><a href="/company">ข้อมูลบริษัท</a></li>
                     <li><a href="/companyNameHistory">ประวัติการเปลี่ยนแปลงชื่อบริษัท</a></li>
@@ -93,6 +93,7 @@
         <!-- test -->
         
     </div>
+   
     <!-- #Menu -->
 </aside>
 </template>
