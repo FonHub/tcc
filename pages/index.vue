@@ -10,7 +10,7 @@
           <div class="col-lg-7 col-md-6 col-sm-12">
             <h2>
               Dashboard
-              <small class="text-muted">Welcome to TCC Application</small>
+              <small class="text-muted">Welcome to TCC Applicationnn</small>
             </h2>
           </div>
           <div class="col-lg-5 col-md-6 col-sm-12">
